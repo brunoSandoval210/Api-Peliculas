@@ -1,0 +1,51 @@
+﻿using Microsoft.EntityFrameworkCore;
+using MinimalApiPeliculas.Entidades;
+
+namespace MinimalApiPeliculas.Repositorios
+{
+    public class RepositoryGenero : IRepositoryGenero
+    {
+        private readonly ApplicationDbContext context;
+        public RepositoryGenero(ApplicationDbContext context) 
+        {
+            this.context = context;
+        }
+
+        public async Task Actualizar(Genero genero)
+        {
+            context.Update<Genero>(genero);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task Borrar(int id)
+        {
+            await context.Generos.Where(x=>x.Id ==id).ExecuteDeleteAsync();
+        }
+
+        public async Task<int> Crear(Genero genero)
+        {
+            context.Add(genero);
+            await context.SaveChangesAsync();
+            return genero.Id;
+        }
+
+        public async Task<bool> Existe(int id)
+        {
+            return await context.Generos.AnyAsync(x=> x.Id==id);
+        }
+        public async Task<List<int>> Existen(List<int> ids)
+        {
+            return await context.Generos.Where(g=> ids.Contains(g.Id)).Select(g=> g.Id).ToListAsync();
+        }
+
+        public async Task<Genero?> ObtenerGeneroPorId(int id)
+        {
+            return await context.Generos.FirstOrDefaultAsync(x=> x.Id==id);
+        }
+
+        public async Task<List<Genero>> ObtenerGeneros()
+        {
+            return await context.Generos.OrderBy(x=>x.Nombre).ToListAsync();
+        }
+    }
+}

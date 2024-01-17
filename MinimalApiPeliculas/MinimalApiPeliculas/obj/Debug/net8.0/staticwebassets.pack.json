@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Bruno Sandoval\\Documents\\ProyectosNetCore\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\b0da48f5-8578-4eb6-a5e7-2e7161e31f93.jpg",
+      "PackagePath": "staticwebassets\\actores\\b0da48f5-8578-4eb6-a5e7-2e7161e31f93.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MinimalApiPeliculas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MinimalApiPeliculas.props",
+      "PackagePath": "build\\MinimalApiPeliculas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MinimalApiPeliculas.props",
+      "PackagePath": "buildMultiTargeting\\MinimalApiPeliculas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MinimalApiPeliculas.props",
+      "PackagePath": "buildTransitive\\MinimalApiPeliculas.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
