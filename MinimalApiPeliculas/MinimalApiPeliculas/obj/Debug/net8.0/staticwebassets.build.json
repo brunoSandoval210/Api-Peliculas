@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P85OWwxcT/R7QMmE6dbfkQKu7vqUpB7ptYP77LppS/k=",
+  "Hash": "lRq7bNJEBloLexnm81ib9IWNofTQk5Baa/7MPHBb/Xo=",
   "Source": "MinimalApiPeliculas",
   "BasePath": "_content/MinimalApiPeliculas",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MinimalApiPeliculas\\wwwroot",
       "Source": "MinimalApiPeliculas",
-      "ContentRoot": "C:\\Users\\Bruno Sandoval\\Documents\\ProyectosNetCore\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bruno Sandoval\\Documents\\Repositorios\\ApiPeliculas\\Api-Peliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
       "BasePath": "_content/MinimalApiPeliculas",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Bruno Sandoval\\Documents\\ProyectosNetCore\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\b0da48f5-8578-4eb6-a5e7-2e7161e31f93.jpg",
+      "Identity": "C:\\Users\\Bruno Sandoval\\Documents\\Repositorios\\ApiPeliculas\\Api-Peliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\actores\\b0da48f5-8578-4eb6-a5e7-2e7161e31f93.jpg",
       "SourceId": "MinimalApiPeliculas",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bruno Sandoval\\Documents\\ProyectosNetCore\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bruno Sandoval\\Documents\\Repositorios\\ApiPeliculas\\Api-Peliculas\\MinimalApiPeliculas\\MinimalApiPeliculas\\wwwroot\\",
       "BasePath": "_content/MinimalApiPeliculas",
       "RelativePath": "actores/b0da48f5-8578-4eb6-a5e7-2e7161e31f93.jpg",
       "AssetKind": "All",
